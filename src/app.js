@@ -175,4 +175,4 @@ app.delete('/posts/:id', (req, res) => {
 
 
 //port server is running
-app.listen(process.env.PORT || 8081)
+app.listen(process.env.PORT || 80)
